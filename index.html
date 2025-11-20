@@ -2,244 +2,232 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Lebogang Mokoena — Resume</title>
-
-  <!-- Font (will match Figma in CSS step) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome for icons (icons will show once CSS or CDN allowed) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="" crossorigin="anonymous" />
-
-  <!-- CSS will be added in next step -->
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main id="page" class="page">
+<main class="page-wrapper">
 
-    <!-- PROFILE / SUMMARY (Block 1) -->
-    <section id="profile-summary" class="block block--profile" aria-label="Profile and summary">
-      <!-- Replace src with your GitHub raw image URL when uploaded -->
-      <img src="/mnt/data/Desktop.png" alt="Lebogang Mokoena profile photo" class="profile-photo">
+  <!-- Profile Block -->
+  <section id="profile-summary" class="block profile-block">
+    <img src="/mnt/data/Desktop.png" alt="Profile photo" class="profile-pic">
+    <div class="profile-text">
+      <h1 class="name">Lebogang Mokoena</h1>
+      <p class="summary">
+        I’m a passionate and detail-oriented junior web developer with strong skills in HTML and CSS, and growing experience in building responsive, user-focused digital solutions. I enjoy creating clean, functional designs and improving my technical abilities through hands-on projects. With a background in business, finance and client-facing roles, I bring strong communication, problem-solving and organisational skills into my tech journey.
+      </p>
+    </div>
+  </section>
 
-      <div class="profile-content">
-        <h1 class="profile-name">Lebogang Mokoena</h1>
-        <p class="profile-summary">
-          I’m a passionate and detail-oriented junior web developer with strong skills in HTML and CSS,
-          and growing experience in building responsive, user-focused digital solutions. I enjoy creating clean,
-          functional designs and improving my technical abilities through hands-on projects. With a background in business,
-          finance and client-facing roles, I bring strong communication, problem-solving and organisational skills into my tech journey.
-        </p>
+  <!-- Proficiency & Skills -->
+  <div class="row two-columns">
+    <!-- Proficiency -->
+    <aside id="proficiency" class="block proficiency-block">
+      <h2>Proficiency</h2>
+      <div class="proficiency-scale">
+        <div class="skill">
+          <div class="skill-label">HTML</div>
+          <div class="bar-bg"><div class="bar" style="width:95%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">CSS</div>
+          <div class="bar-bg"><div class="bar" style="width:90%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">Git & GitHub</div>
+          <div class="bar-bg"><div class="bar" style="width:70%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">JavaScript (Basic)</div>
+          <div class="bar-bg"><div class="bar" style="width:5%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">Responsive Design</div>
+          <div class="bar-bg"><div class="bar" style="width:40%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">VS Code</div>
+          <div class="bar-bg"><div class="bar" style="width:65%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">UI Layouts & Figma</div>
+          <div class="bar-bg"><div class="bar" style="width:5%"></div></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Skills -->
+    <aside id="skills" class="block skills-block">
+      <h2>Skills</h2>
+      <div class="skill-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">Git & GitHub</span>
+        <span class="tag">Responsive Web Design</span>
+        <span class="tag">VS Code</span>
+        <span class="tag">Problem Solving</span>
+        <span class="tag">Communication</span>
+        <span class="tag">Teamwork</span>
+        <span class="tag">Time Management</span>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Projects -->
+  <section id="projects" class="block projects-block">
+    <h2>Projects</h2>
+    <div class="projects-row">
+      <article class="project-card project-card--primary">
+        <div class="project-year">2025</div>
+        <h3 class="project-title">Portfolio Website</h3>
+        <p class="project-brief"><strong>Brief:</strong> Built a structured, professional portfolio webpage using only HTML to showcase projects and skills. Replicated the CodeSpace Cat Portfolio layout and ensured semantic HTML usage.</p>
+        <p class="project-tech"><strong>Technologies:</strong> HTML, CSS</p>
+        <p class="project-resp"><strong>Responsibilities:</strong> Developed the layout, added responsive design, and ensured proper image usage and accessibility.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-year">2025</div>
+        <h3 class="project-title">Instagram-Style Profile</h3>
+        <p class="project-brief"><strong>Brief:</strong> Styled and structured a social media profile page with CSS. Implemented flexbox and grid layouts to recreate Instagram layout for desktop and mobile views.</p>
+        <p class="project-tech"><strong>Technologies:</strong> HTML, CSS</p>
+        <p class="project-resp"><strong>Responsibilities:</strong> Created interactive hover effects, ensured responsiveness, and followed provided design references.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-year">2025</div>
+        <h3 class="project-title">Responsive Footer</h3>
+        <p class="project-brief"><strong>Brief:</strong> Built a fully responsive footer with HTML and CSS that adapts to all screen sizes. Ensured accessibility and semantic structure.</p>
+        <p class="project-tech"><strong>Technologies:</strong> HTML, CSS</p>
+        <p class="project-resp"><strong>Responsibilities:</strong> Implemented newsletter section, quick links, and optional social icons. Verified layout on desktop and mobile devices.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-year">2026</div>
+        <h3 class="project-title">Tailwind Footer Project</h3>
+        <p class="project-brief"><strong>Brief:</strong> Designed a fully responsive website footer using Tailwind CSS. Implemented utility-first styling for layout and responsiveness.</p>
+        <p class="project-tech"><strong>Technologies:</strong> Tailwind CSS, HTML</p>
+        <p class="project-resp"><strong>Responsibilities:</strong> Created grid layout for quick links and newsletter section. Ensured accessibility, spacing, and responsive design.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Education & Tools -->
+  <div class="row large-columns">
+    <section id="education" class="block education-block">
+      <h2>Education</h2>
+      <div class="edu-list">
+        <article class="edu-item edu-item--primary">
+          <div class="edu-date">Aug 2025 – Present</div>
+          <h3>CodeSpace Academy — Software Development</h3>
+          <ul>
+            <li>Learning HTML, CSS, and JavaScript</li>
+            <li>Developed hands-on coding projects</li>
+            <li>Collaborated with peers on practical tasks</li>
+            <li>Focused on responsive and clean design</li>
+          </ul>
+        </article>
+
+        <article class="edu-item">
+          <div class="edu-date">2025</div>
+          <h3>Johannesburg Business School — PGD in Business Administration</h3>
+          <ul>
+            <li>Class Representative</li>
+            <li>Member of UJ Investment Society</li>
+            <li>Top achiever in PGDip program</li>
+            <li>Studied finance and business management</li>
+          </ul>
+        </article>
+
+        <article class="edu-item">
+          <div class="edu-date">2020</div>
+          <h3>Hoërskool Bergvlam — NSC</h3>
+          <ul>
+            <li>Head Girl</li>
+            <li>Head of Youth Mentors</li>
+            <li>2 Distinctions</li>
+            <li>Built leadership and problem-solving skills</li>
+          </ul>
+        </article>
       </div>
     </section>
 
-    <!-- ROW: PROFICIENCY (Block 2) + SKILLS (Block 3) -->
-    <div class="row row--proficiency-skills">
-
-      <!-- PROFICIENCY (Block 2) -->
-      <aside id="proficiency" class="block block--proficiency" aria-label="Proficiency">
-        <h2 class="block-title">Proficiency</h2>
-
-        <div class="proficiency-list">
-          <!-- Each skill has label + bar (CSS will set widths) -->
-          <div class="proficiency-item">
-            <span class="skill-label">HTML</span>
-            <div class="skill-bar" data-value="95"></div>
-          </div>
-
-          <div class="proficiency-item">
-            <span class="skill-label">CSS</span>
-            <div class="skill-bar" data-value="90"></div>
-          </div>
-
-          <div class="proficiency-item">
-            <span class="skill-label">Git &amp; GitHub</span>
-            <div class="skill-bar" data-value="70"></div>
-          </div>
-
-          <div class="proficiency-item">
-            <span class="skill-label">JavaScript (Basic)</span>
-            <div class="skill-bar" data-value="5"></div>
-          </div>
-
-          <div class="proficiency-item">
-            <span class="skill-label">Responsive Design</span>
-            <div class="skill-bar" data-value="40"></div>
-          </div>
-
-          <div class="proficiency-item">
-            <span class="skill-label">VS Code</span>
-            <div class="skill-bar" data-value="65"></div>
-          </div>
-
-          <div class="proficiency-item">
-            <span class="skill-label">UI Layouts &amp; Figma Interpretation</span>
-            <div class="skill-bar" data-value="5"></div>
-          </div>
+    <aside id="tools" class="block tools-block">
+      <h2>Tools</h2>
+      <div class="tools-grid">
+        <div class="tool">
+          <img src="icons/vscode.svg" alt="VS Code Icon" class="tool-icon">
+          <span>VS Code</span>
         </div>
-      </aside>
-
-      <!-- SKILLS (Block 3) -->
-      <aside id="skills" class="block block--skills" aria-label="Skills">
-        <h2 class="block-title">Skills</h2>
-
-        <div class="skill-tags">
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-          <span class="tag">Git &amp; GitHub</span>
-          <span class="tag">Responsive Web Design</span>
-          <span class="tag">VS Code</span>
-          <span class="tag">Problem solving</span>
-          <span class="tag">Communication</span>
-          <span class="tag">Teamwork</span>
-          <span class="tag">Time management</span>
+        <div class="tool">
+          <img src="icons/git.svg" alt="Git Icon" class="tool-icon">
+          <span>Git</span>
         </div>
-      </aside>
+        <div class="tool">
+          <img src="icons/github.svg" alt="GitHub Icon" class="tool-icon">
+          <span>GitHub</span>
+        </div>
+        <div class="tool">
+          <img src="icons/chrome-devtools.svg" alt="Chrome DevTools Icon" class="tool-icon">
+          <span>Chrome DevTools</span>
+        </div>
+        <div class="tool">
+          <img src="icons/figma.svg" alt="Figma Icon" class="tool-icon">
+          <span>Figma (basic)</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Experience -->
+  <section id="experience" class="block experience-block">
+    <h2>Experience</h2>
+    <div class="exp-item exp-item--primary">
+      <div class="exp-date">Old Mutual — Sales Consultant (4 months)</div>
+      <ul>
+        <li>Assisted clients with product information and onboarding</li>
+        <li>Provided customer support and engagement</li>
+        <li>Managed client interactions professionally</li>
+        <li>Developed communication and negotiation skills</li>
+      </ul>
     </div>
 
-    <!-- PROJECTS (Block 4) -->
-    <section id="projects" class="block block--projects" aria-label="Projects">
-      <h2 class="block-title">Projects</h2>
-
-      <div class="projects-grid">
-        <!-- Project 1 (primary green block in Figma) -->
-        <article class="project project--primary" aria-labelledby="proj1-title">
-          <div class="project-meta">
-            <span class="project-year">2025</span>
-          </div>
-          <h3 id="proj1-title" class="project-title">Portfolio Project — SDFPP</h3>
-          <p class="project-desc">
-            Built a pixel-accurate resume portfolio site using HTML &amp; CSS following a Figma reference.
-            Implemented semantic structure and responsive layout; prepared for presentation recording.
-          </p>
-        </article>
-
-        <!-- Project 2 -->
-        <article class="project" aria-labelledby="proj2-title">
-          <div class="project-meta">
-            <span class="project-year">2025</span>
-          </div>
-          <h3 id="proj2-title" class="project-title">Instagram-style Profile Layout</h3>
-          <p class="project-desc">
-            Recreated an Instagram-style profile page using CSS Grid and Flexbox. Focus on layout, hover effects and responsiveness.
-          </p>
-        </article>
-
-        <!-- Project 3 -->
-        <article class="project" aria-labelledby="proj3-title">
-          <div class="project-meta">
-            <span class="project-year">2025</span>
-          </div>
-          <h3 id="proj3-title" class="project-title">Responsive Footer Challenge</h3>
-          <p class="project-desc">
-            Built a fully responsive HTML &amp; CSS footer component matching reference images at multiple screen sizes.
-          </p>
-        </article>
-
-        <!-- Project 4 -->
-        <article class="project" aria-labelledby="proj4-title">
-          <div class="project-meta">
-            <span class="project-year">2025</span>
-          </div>
-          <h3 id="proj4-title" class="project-title">Tailwind Footer (Learning)</h3>
-          <p class="project-desc">
-            Practiced Tailwind utility classes to build an accessible, responsive footer with newsletter and quick links sections.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <!-- EDUCATION (Block 5) + TOOLS (Block 6) -->
-    <div class="row row--education-tools">
-
-      <section id="education" class="block block--education" aria-label="Education">
-        <h2 class="block-title">Education</h2>
-
-        <div class="education-list">
-          <article class="education-item education-item--primary">
-            <div class="edu-course">Codespace — Student (Aug 2025)</div>
-            <div class="edu-desc">Learning HTML, CSS and JavaScript; project-based training and coding exposure.</div>
-          </article>
-
-          <article class="education-item">
-            <div class="edu-course">Johannesburg Business School — Postgraduate Diploma in Business Administration (2025)</div>
-            <div class="edu-desc">Class Representative (2025). Member of UJ Investment Society. Top achiever in the PGDip programme.</div>
-          </article>
-
-          <article class="education-item">
-            <div class="edu-course">Hoërskool Bergvlam — NSC (2020)</div>
-            <div class="edu-desc">Head Girl (2020). Head of Youth Mentors (2020). Achieved 2 distinctions.</div>
-          </article>
-
-          <article class="education-item">
-            <div class="edu-course">Other Training / Short Courses</div>
-            <div class="edu-desc">Relevant short courses and workshops (if any) can be listed here.</div>
-          </article>
-        </div>
-      </section>
-
-      <aside id="tools" class="block block--tools" aria-label="Tools">
-        <h2 class="block-title">Tools</h2>
-        <div class="tools-list" role="list">
-          <div class="tool-item" role="listitem"><i class="fa-solid fa-code"></i> VS Code</div>
-          <div class="tool-item" role="listitem"><i class="fa-brands fa-git-alt"></i> Git</div>
-          <div class="tool-item" role="listitem"><i class="fa-brands fa-github"></i> GitHub</div>
-          <div class="tool-item" role="listitem"><i class="fa-solid fa-magnifying-glass"></i> Chrome DevTools</div>
-          <div class="tool-item" role="listitem"><i class="fa-brands fa-figma"></i> Figma (basic)</div>
-        </div>
-      </aside>
+    <div class="exp-item">
+      <div class="exp-date">Old Mutual — Finance Intern (5 months)</div>
+      <ul>
+        <li>Assisted with financial data processing</li>
+        <li>Prepared reports and documentation</li>
+        <li>Strengthened analytical and administrative skills</li>
+        <li>Collaborated with finance team on tasks</li>
+      </ul>
     </div>
 
-    <!-- EXPERIENCE (Block 7) -->
-    <section id="experience" class="block block--experience" aria-label="Experience">
-      <h2 class="block-title">Experience</h2>
+    <div class="exp-item">
+      <div class="exp-date">Old Mutual — Collections (3 months)</div>
+      <ul>
+        <li>Managed customer accounts and follow-ups</li>
+        <li>Monitored payments and deadlines</li>
+        <li>Improved professional communication skills</li>
+        <li>Negotiated solutions to overdue accounts</li>
+      </ul>
+    </div>
+  </section>
 
-      <article class="experience-item experience-item--primary" aria-labelledby="exp1-title">
-        <div class="exp-date">Aug 2024 – Jul 2025</div>
-        <h3 id="exp1-title" class="exp-title">Old Mutual — Sales Consultant</h3>
-        <ul class="exp-list">
-          <li>Assisted clients with product information and onboarding.</li>
-          <li>Developed communication and customer-engagement skills.</li>
-        </ul>
-      </article>
+  <!-- Contact / Footer -->
+  <footer id="contact" class="block contact-block">
+    <div class="contact-text">
+      <h3>Let’s chat! I’m ready to work on exciting projects.</h3>
+      <p class="contact-info">
+        ditswe24@gmail.com &nbsp; | &nbsp; 079 194 4861 &nbsp; | &nbsp;
+        <a href="https://www.linkedin.com/in/lebogang-mokoena-ab7a032ab" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
 
-      <article class="experience-item" aria-labelledby="exp2-title">
-        <div class="exp-date">Jan 2023 – Jul 2024</div>
-        <h3 id="exp2-title" class="exp-title">Old Mutual — Finance Intern</h3>
-        <ul class="exp-list">
-          <li>Assisted with financial data processing.</li>
-          <li>Strengthened analytical and administrative capabilities.</li>
-        </ul>
-      </article>
-
-      <article class="experience-item" aria-labelledby="exp3-title">
-        <div class="exp-date">Feb 2021 – Dec 2022</div>
-        <h3 id="exp3-title" class="exp-title">Old Mutual — Collections</h3>
-        <ul class="exp-list">
-          <li>Managed customer accounts and payment follow-ups.</li>
-          <li>Improved negotiation and professional communication skills.</li>
-        </ul>
-      </article>
-    </section>
-
-    <!-- CONTACT / FOOTER (Lets Chat block) -->
-    <footer id="contact" class="block block--contact" aria-label="Contact">
-      <div class="contact-left">
-        <h2 class="contact-title">Let’s chat</h2>
-        <p class="contact-desc">I’m ready to work on exciting projects.</p>
-      </div>
-
-      <div class="contact-right">
-        <p class="contact-info">
-          <a href="mailto:ditswe24@gmail.com">ditswe24@gmail.com</a><br>
-          079 194 4861<br>
-          <a href="https://www.linkedin.com/in/lebogang-mokoena-ab7a032ab" target="_blank" rel="noopener">LinkedIn</a>
-        </p>
-      </div>
-    </footer>
-
-  </main>
+</main>
 </body>
 </html>
+
 
 
