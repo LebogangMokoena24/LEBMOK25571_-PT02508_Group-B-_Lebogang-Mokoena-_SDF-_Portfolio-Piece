@@ -1,9 +1,9 @@
 # LEBMOK25571_-PT02508_Group-B-_Lebogang-Mokoena-_SDF-_Portfolio-Piece
 
-#**Overview:** 
+**Overview:** 
 This project is a personal portfolio website designed to exactly duplicate a Figma template.  The website is clean and responsive, highlighting my skills, projects, education, tools, and job experience.
 
-##**Presentation links:** 
+**Presentation links:** 
 
 1. 
 
@@ -17,7 +17,7 @@ This project is a personal portfolio website designed to exactly duplicate a Fig
 
 -Content should be organised using semantic HTML and stylistic components to ensure maintainability.
 
-#**Features**
+**Features**
 
  -Flexbox and media queries are used in responsive design to ensure that desktop and mobile devices adapt seamlessly.
 
@@ -31,7 +31,7 @@ This project is a personal portfolio website designed to exactly duplicate a Fig
 
  -Contact information is in the footer, including an email address, phone number, and a link to LinkedIn.
 
- #**Technologies Used**
+ **Technologies Used**
 
 -**HTML5** – For semantic and structured content.
 
@@ -43,7 +43,7 @@ This project is a personal portfolio website designed to exactly duplicate a Fig
 
 -**Emoji icons** – Used in tools section and project hearts to simplify icon use without external kits
 
-#**Key Lessons from the project:**
+**Key Lessons from the project:**
 
  -Converting Figma designs into useful, responsive code.
 
