@@ -1,13 +1,14 @@
 # LEBMOK25571_-PT02508_Group-B-_Lebogang-Mokoena-_SDF-_Portfolio-Piece
 
 **Overview:** 
+
 This project is a personal portfolio website designed to exactly duplicate a Figma template.  The website is clean and responsive, highlighting my skills, projects, education, tools, and job experience.
 
 **Presentation links:** 
 
-1. 
+1. https://drive.google.com/file/d/1R0s48XmGwf7kQE2KAtdQ9_UvQBSFBQoh/view?usp=drive_link
 
-2. 
+2. https://youtu.be/W0ZMAv7nKQQ?si=1sn_Fm3pjLaVyODw 
 
 **The primary goals of this project were:**
 
